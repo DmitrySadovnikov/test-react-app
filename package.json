@@ -1,0 +1,13 @@
+{
+  "name": "test-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "deploy": "npm run build && npm run git-commit && npm run git-push",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "webpack": "^3.5.5"
+  }
+}
